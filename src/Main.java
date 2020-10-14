@@ -5,9 +5,9 @@ public class Main {
 
         CashbackService cashbackService = new CashbackService();
         double cashbackResult = cashbackService.cashbackCalculate(
-                3000.0,
-                2000.0,
-                1000.0,
+                3_000.0,
+                2_000.0,
+                1_000.0,
                 2.5,
                 2.0,
                 3.0);

@@ -18,7 +18,7 @@ public class CashbackService {
         double cashbackSum = cashbackRegular + cashbackIncreased + cashbackSpecialOffer;
 
 //      Условие по ограничению суммы кэшбека
-        double limit = 3_000_00;
+        double limit = 3_000.00;
         if (cashbackSum > limit) {
             cashbackSum = limit;
         }
